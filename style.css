@@ -1,6 +1,6 @@
 header {
     background-color: black;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 nav {
@@ -20,12 +20,52 @@ nav li {
     display: inline-flex;
     margin: 0 0 0 15px;
     color: gold;
-    
-   
-    
-    
-    
-    
-    
+       
 }
 
+.sobre {
+    display: inline-block;
+    background: red;
+    width: 100%;
+    max-height: 500px;
+    margin: 150px 0px 0;
+}
+
+.sobre p {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.imagem-perfil {
+    width: 300px;
+    float: right;
+    margin: -90px 20px 20px 0;
+    border-radius: 150px;
+}
+
+.projetos {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.projetos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 5px 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.projetos img {
+    width: 50%;
+    height: 200px;
+}
+
+.devicon-linkedin-plain {
+    font-size: 32pt;
+}
