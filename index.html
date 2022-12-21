@@ -8,39 +8,74 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-          
-          
+
+
     <title>Jocimar</title>
 
 </head>
-<header>
+<header id="nav-menu">
     <nav>
         <ul class="menu">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#meus-projetos">Meus Projetos</a></li>
-            <li><a href="#vitrine">Meus Cursos</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a href="#nav-menu">Home</a></li>
+            <li><a href="#nav-sobre">Sobre</a></li>
+            <li><a href="#nav-conhecimentos">Conhecimentos</a></li>
+            <li><a href="#nav-meus-projetos">Meus Projetos</a></li>
+            <li><a href="#nav-vitrine">Meus Cursos</a></li>
+            <li><a href="#nav-contato">Contato</a></li>
         </ul>
     </nav>
 </header>
 
 <body>
     <main>
-        <section class="sobre" id="sobre">
-            <h1>Sobre:</h1>
+        <section class="sobre" id="nav-sobre">
+            <h1>Sobre mim:</h1>
             <img class="imagem-perfil" src="./src/imagens/Perfil.jpg" alt="Imagem do Perfil">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat assumenda vitae facilis architecto
+            <p class="conteudo-sobre">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat assumenda vitae
+                facilis architecto
                 asperiores blanditiis adipisci commodi, delectus rem alias suscipit incidunt placeat quas quaerat
                 voluptatibus id laboriosam quos tempora.</p>
         </section>
 
-        <section class="meus-projetos" id="meus-projetos">
+        <section id="nav-conhecimentos">
+            <h1>Tecnologias que já tive contato</h1>
+
+            <div class="conhecimentos">
+                <i class="devicon-javascript-plain colored"></i>
+
+                <i class="devicon-java-plain-wordmark colored"></i>
+
+                <i class="devicon-html5-plain-wordmark colored"></i>
+
+                <i class="devicon-css3-plain-wordmark colored"></i>
+
+
+                <i class="devicon-linux-plain colored"></i>
+
+
+                <i class="devicon-git-plain-wordmark"></i>
+
+
+                <i class="devicon-github-original-wordmark colored"></i>
+
+
+                <i class="devicon-react-original-wordmark colored"></i>
+
+
+
+
+            </div>
+        </section>
+
+        <section class="meus-projetos" id="nav-meus-projetos">
             <ul class="projetos">
+                <h2>Aqui estão os projetos que eu finalizei</h2>
                 <li>
                     <h2>Projeto 1</h2>
                     <img src="./src/imagens/chika1.jpg" alt="Projeto 1">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus dolorem fugiat. Illo eos veritatis dolorum illum non inventore odio eligendi aut vel quidem consequatur officiis, a omnis quibusdam nesciunt? </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus dolorem fugiat. Illo eos
+                        veritatis dolorum illum non inventore odio eligendi aut vel quidem consequatur officiis, a omnis
+                        quibusdam nesciunt? </p>
                 </li>
                 <li>
                     <h2>Projeto 1</h2>
@@ -60,25 +95,40 @@
             </ul>
         </section>
 
-        <section class="vitrine" id="vitrine">
-            <h1>Se você quiser dar uma olhada nos cursos que eu já finalizei <a href="https://cursos.alura.com.br/vitrinedev/jocimarrodrigues1337">Clique aqui!</a>
+        <section class="vitrine" id="nav-vitrine">
+            <h1>Se quiser você pode acessar minha vitrine dev e lá ter acesso a todos os cursos e certificados que possúo :D </h1>
+            <p>Clique na imagem abaixo para ser redirecionado</p>
+            <a href="https://cursos.alura.com.br/vitrinedev/jocimarrodrigues1337"><img src="./src/imagens/alura.png" alt=""></a>
+                
         </section>
 
-        <section class="contato" id="contato">
-            <ul>
-                <li>  
-                    <a href="https://cursos.alura.com.br/vitrinedev/jocimarrodrigues1337"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt=""></a>
+        <section class="contato" id="nav-contato">
+            <h1>Se quiser entrar em contato comigo, clique em um dos links abaixo :D</h1>
+
+            <ul class="lista_contato">
+                <li>
+                    <a href="https://cursos.alura.com.br/vitrinedev/jocimarrodrigues1337"><img
+                            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                            alt=""></a>
                 </li>
                 <li>
-                    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="">
+                    <a href=""><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=whitee"
+                        alt=""></a>
+
+                       
                 </li>
                 <li>
-                    <img src="	https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="">
+                    <img src="	https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+                        alt="">
                 </li>
             </ul>
         </section>
 
+
     </main>
+    <footer>
+        <p>Criado por &copy;John</p>
+    </footer>
     <script src="./src/js/main.js"></script>
 </body>
 
