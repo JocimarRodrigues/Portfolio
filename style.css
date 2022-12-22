@@ -5,31 +5,42 @@ header {
 
 }
 
+body {
+    background-image: url(./src/imagens/pexels-marek-piwnicki-10050564.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 10%;
+}
+
+* {
+    color: white;
+}
+
 nav {
     position: fixed;
     top: 0;
     right: 0;
     display: inline-block;
     overflow: hidden;
-    
+
     width: 100%;
 }
 
 .menu {
     display: flex;
     justify-content: right;
-    
+
     background: rgba(196, 196, 196, 0.397);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     list-style: none;
     padding: 30px 10px;
     z-index: 1;
-    
 
-    
-    
+
+
 }
+
 
 
 nav li {
@@ -39,24 +50,51 @@ nav li {
     display: inline-flex;
     margin: 0 0 0 15px;
     color: gold;
+    ;
 
 }
 
 nav a {
     text-decoration: none;
-    color: cyan;
-    padding: 0px 30px;
-    
+    color: rgba(0, 0, 0, 0.747);
+    border: 10px;
+    padding: 0px 0px;
+    position: relative;
+
 }
 
 nav a:hover {
-    color: red;
-    transition: 1.5s;
+    font-size: 40pt;
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease-in-out;
+
+}
+
+
+nav a::after {
+    content: "";
+
+    width: 0%;
+    height: 4px;
+    background-color: turquoise;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+
+
+}
+
+
+
+nav a:hover::after {
+    width: 100%;
+
+
 }
 
 .sobre {
     display: inline-block;
-    background: red;
     width: 100%;
     max-height: 400px;
     margin: 150px 0px 0;
@@ -64,7 +102,7 @@ nav a:hover {
 
 .sobre h1 {
     font-size: 40pt;
-    
+
 }
 
 .conteudo-sobre {
@@ -72,7 +110,12 @@ nav a:hover {
     max-width: 30%;
     max-height: 30%;
     font-size: 22pt;
+    color: turquoise;
+    font-weight: bold;
+    font-style: italic;
+
 }
+
 
 .imagem-perfil {
     width: 300px;
@@ -86,12 +129,13 @@ nav a:hover {
     display: inline-block;
     text-align: center;
     min-width: 100%;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 #nav-conhecimentos h1 {
     text-align: center;
     font-size: 40pt;
+    margin-top: 100px;
 }
 
 
@@ -100,6 +144,7 @@ nav a:hover {
     width: 100%;
     margin: 0 auto;
     padding: 50px 0;
+    margin-top: 100px;
 }
 
 .projetos h2 {
@@ -125,10 +170,11 @@ nav a:hover {
     height: 200px;
 }
 
-.vitrine h1{
+.vitrine h1 {
     text-align: center;
     font-size: 30pt;
     align-items: center;
+    margin-top: 100px;
 }
 
 .vitrine p {
@@ -139,9 +185,9 @@ nav a:hover {
 }
 
 .vitrine a {
-   display: flex;
-   justify-content: center;
-   font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    font-size: 20pt;
 }
 
 .contato h1 {
@@ -155,7 +201,7 @@ nav a:hover {
     display: inline-flex;
     justify-content: center;
     text-align: center;
-    
+
 }
 
 
@@ -171,3 +217,4 @@ footer {
 footer p {
     padding-top: 100px;
 }
+
