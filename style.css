@@ -130,6 +130,7 @@ nav a:hover::after {
     text-align: center;
     min-width: 100%;
     margin-top: 100px;
+    clear: right;
 }
 
 #nav-conhecimentos h1 {
