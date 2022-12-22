@@ -131,6 +131,25 @@ nav a:hover::after {
     border-radius: 150px;
 }
 
+.contato {
+    display: inline-flex;
+    
+}
+
+.contato li {
+    padding: 0 5px;
+}
+
+.contato img {
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
 .sobre {
     display: inline-block;
     margin: 10px 300px;
