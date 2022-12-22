@@ -26,6 +26,8 @@ nav {
     width: 100%;
 }
 
+
+
 .menu {
     display: flex;
     justify-content: right;
@@ -93,11 +95,47 @@ nav a:hover::after {
 
 }
 
+#apresentacao {
+    display: block;
+    max-height: 300px;
+    margin: 150px;
+    font-size: 40pt;
+
+}
+
+
+#apresentacao span {
+    color: red;
+}
+
+#apresentacao span::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.imagem-perfil {
+    float: right;
+    width: 300px;
+    margin: -85px 148px 0;
+    border-radius: 150px;
+}
+
 .sobre {
     display: inline-block;
-    width: 100%;
-    max-height: 400px;
-    margin: 150px 0px 0;
+    margin: 10px 300px;
+    clear: right;
+
 }
 
 .sobre h1 {
@@ -105,10 +143,9 @@ nav a:hover::after {
 
 }
 
-.conteudo-sobre {
+.conteudo-sobre p {
     margin-top: 10px;
-    max-width: 30%;
-    max-height: 30%;
+
     font-size: 22pt;
     color: turquoise;
     font-weight: bold;
@@ -116,13 +153,6 @@ nav a:hover::after {
 
 }
 
-
-.imagem-perfil {
-    width: 300px;
-    float: right;
-    margin: -90px 20px 20px 0;
-    border-radius: 150px;
-}
 
 .conhecimentos {
     font-size: 82pt;

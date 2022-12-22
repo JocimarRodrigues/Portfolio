@@ -1,3 +1,4 @@
+// Scroll Suave
 const menuLinks = document.querySelectorAll('#nav-menu a[href^="#"]');
 
 function getDistanceFromTheTop(element) {
@@ -22,3 +23,20 @@ function scrollToSection(event) {
 menuLinks.forEach((link) => {
     link.addEventListener("click", scrollToSection);
 });
+
+// Animação no nome
+
+function typeWriter(elemento) {
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra, i) => {
+        setTimeout(function() {
+            elemento.innerHTML += letra
+        }, 75 * i)
+        console.log(i)
+    })
+    
+}
+
+const nome = document.querySelector('#apresentacao span');
+typeWriter(nome);
