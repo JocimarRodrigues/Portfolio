@@ -5,6 +5,8 @@ header {
 
 }
 
+
+
 body {
     background-image: url(./src/imagens/pexels-marek-piwnicki-10050564.jpg);
     background-size: cover;
@@ -144,9 +146,19 @@ nav a:hover::after {
 }
 
 .contato img {
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 10px;
+    width: 111px;
+    height: 28px;
+    transition: 0.5s;
     
+}
+
+.contato img:hover {
+    width: 200px;
+    border-radius: 50px;
+    height: 80px;
+    transition: 0.5s;
 }
 
 
@@ -285,11 +297,12 @@ nav a:hover::after {
     width: 284px;
     transition: 1s;
 
+
 }
 
 .vitrine img:hover {
     width: 500px;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 
 .contato h1 {
@@ -319,6 +332,33 @@ footer {
 footer p {
     padding-top: 100px;
 }
+
+footer span {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 30pt;
+}
+
+footer li, a{
+    list-style: none;
+    padding-left: 5px;
+    text-decoration: none;
+
+}
+
+footer li:hover{
+    transform: rotate(720deg);
+
+    transition: 1s;
+}
+
+footer ul {
+    display: inline-flex;
+    align-items: center;
+
+}
+
 
 @media screen and (max-width: 414px){
 
@@ -377,6 +417,7 @@ footer p {
     .projetos li {
         width: 100%;
         margin-left: 150px;
+        font-size: 20pt;
 
     }
 
@@ -416,6 +457,8 @@ footer p {
         padding-left: 310px;
 
     }
+
+ 
 
 }
 
