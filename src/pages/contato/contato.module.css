@@ -1,8 +1,6 @@
-body {
-    background-image: url("/Portfolio/src/imagens/BackgroundContato.png");
+body img {
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 header img {
