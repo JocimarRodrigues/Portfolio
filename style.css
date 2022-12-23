@@ -263,6 +263,12 @@ nav a:hover::after {
     transition: 1s;
 }
 
+.em-breve img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
 .vitrine h1 {
     text-align: center;
     font-size: 30pt;
