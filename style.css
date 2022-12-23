@@ -475,5 +475,12 @@ footer ul {
     }
 }
 
+@media (max-width: 385px) {
+    body, html {
+        width: 440px;
+    }
+}
+
+
 
 
