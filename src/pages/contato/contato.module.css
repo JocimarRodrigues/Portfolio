@@ -1,6 +1,6 @@
-body img {
+body {
+    background-image: url(BackgroundContato.png);
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 header img {
