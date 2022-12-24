@@ -53,7 +53,6 @@ nav li {
     list-style: none;
     display: inline-flex;
     margin: 0 0 0 15px;
-    color: gold;
     ;
 
 }
@@ -62,7 +61,7 @@ nav a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.747);
     border: 10px;
-    padding: 0px 0px;
+    margin: 0 25px;
     position: relative;
     font-size: 20pt;
     transition: 1.0s;
@@ -337,6 +336,10 @@ footer {
 
 footer p {
     padding-top: 100px;
+}
+
+footer b {
+    color: gold;
 }
 
 footer span {
