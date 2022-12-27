@@ -10,7 +10,6 @@ header {
 body {
     background-image: url(./src/imagens/pexels-marek-piwnicki-10050564.jpg);
     background-size: cover;
-    width: 100%;
     
 }
 
@@ -24,7 +23,7 @@ nav {
     right: 0;
     display: inline-block;
     overflow: hidden;
-    
+    transition: 0.5;
     width: 100%;
 }
 
@@ -221,7 +220,7 @@ nav a:hover::after {
 .projetos li {
     display: inline-block;
     text-align: center;
-    width: 20%;
+    width: 30%;
     vertical-align: top;
     margin: 5px 1.5%;
     padding: 30px 20px;
@@ -475,6 +474,7 @@ footer ul {
 @media screen and (max-height: 826px) {
     body, html {
         width: 1840px;
+
         
     }
 }
@@ -482,6 +482,7 @@ footer ul {
 @media (max-width: 385px) {
     body, html {
         width: 440px;
+
     }
 }
 
