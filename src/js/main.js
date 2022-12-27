@@ -40,3 +40,5 @@ function typeWriter(elemento) {
 
 const nome = document.querySelector('#apresentacao span');
 typeWriter(nome);
+
+
