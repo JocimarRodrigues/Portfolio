@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    
+
     background-image: url(imagens/BackgroundContato.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,8 +21,8 @@ body {
     transition: 1.5s;
 }
 
-.email{
-    margin-top:  50px;
+.email {
+    margin-top: 50px;
     text-align: center;
     font-size: 40pt;
     color: white;
@@ -40,16 +40,30 @@ body {
     color: white;
 }
 
-.imagem-voltar {
- position: relative;
- left: 280px;
- bottom: 80px;
-    
-    
+.imagem-voltar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
+
 
 @media screen and (max-width: 480px) {
     body {
-        width: auto;
+        width: 100%;
+        height: 915px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media (max-width: 920px) {
+    body {
+        width: 100%;
+        height: 1368px;
     }
 }
