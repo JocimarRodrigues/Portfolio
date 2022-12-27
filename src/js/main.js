@@ -33,7 +33,6 @@ function typeWriter(elemento) {
         setTimeout(function() {
             elemento.innerHTML += letra
         }, 75 * i)
-        console.log(i)
     })
     
 }
