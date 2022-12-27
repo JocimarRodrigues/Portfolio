@@ -129,6 +129,11 @@ nav a:hover::after {
     width: 300px;
     margin: -85px 148px 0;
     border-radius: 150px;
+    transition: 400ms;
+}
+
+.imagem-perfil:hover {
+    opacity: 0.3;
 }
 
 .contato {
@@ -228,10 +233,14 @@ nav a:hover::after {
 }
 
 .projetos img {
-    height: 200px;
+    height: 300px;
     width: 70%;
     border-radius: 10px;
     transition: 1.5s;
+}
+
+.projetos p {
+    font-size: 15pt;
 }
 
 .projetos img:hover {
