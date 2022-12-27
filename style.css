@@ -484,6 +484,13 @@ footer ul {
     }
 }
 
+@media (max-width: 370px) {
+    .imagem-perfil {
+        background: red;
+        width: 40px;
+    }
+}
+
 
 
 
